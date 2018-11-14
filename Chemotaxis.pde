@@ -29,12 +29,21 @@ int g;
 
  void draw()   
  { 
-   background(255,255,255);
+   //background(255,255,255);
    for(int i = 0; i < bs.length;i++)
    {
      bs[i].move();
    }
  }  
+ 
+ void mousePressed()
+ {
+  redraw();
+  background(255,255,255);
+  r = 255;
+   g = 0;
+   b = 0;
+ }
 
 class Bacteria    
 {     
