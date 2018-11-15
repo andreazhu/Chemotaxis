@@ -1,3 +1,10 @@
+/** Chemotaxis Project
+  * Rainbow Bacteria Colony
+  * Biased Random Walk towards Mouse
+  * @author Andrea Zhu
+  * @date   2018-11-15
+  */
+
 int x;
 int y;
 int c;
